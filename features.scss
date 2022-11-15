@@ -1,0 +1,26 @@
+.features__list {
+    display: flex;
+    
+}
+
+.features {
+    display: flex;
+}
+
+.features__item {
+    margin-right: 33px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.features__icon {
+    width: 35px;
+    margin-right: 14px;
+}
+
+.features__text {
+    font-size: 16px;
+    max-width: 90px;
+}
